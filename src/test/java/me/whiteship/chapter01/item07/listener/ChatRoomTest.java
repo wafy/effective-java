@@ -1,5 +1,6 @@
 package me.whiteship.chapter01.item07.listener;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.lang.ref.WeakReference;
@@ -9,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ChatRoomTest {
 
+    @Disabled
     @Test
     void charRoom() throws InterruptedException {
         ChatRoom chatRoom = new ChatRoom();
